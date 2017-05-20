@@ -1,0 +1,201 @@
+body{
+	background-color:#C7F8BE;
+	max-width:70%;
+	margin:0 auto;
+}
+
+@font-face {
+	font-family:FontAwesome;
+	src: url('FontAwesome.otf');
+}
+#body_wrap {
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+.clear-fix {
+	clear:both;
+}
+
+header {
+	padding:20px;
+}
+
+header img {
+	float:left;
+	width:120px;
+	height:120px;
+}
+	
+header h1 {
+	text-align:center;
+}
+	
+.fa {
+	font-family:FontAwesome;
+	padding-right:2px;
+	text-align:center;
+}
+
+nav {
+	background-color:#333;
+	overflow:hidden;
+	margin:20px;
+}
+
+nav ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+nav li {
+	float:left;
+}
+
+nav li a {
+	text-decoration:none;
+	color:white;
+	padding:14px 16px;
+	display:inline-block;
+	text-align:center;
+}
+
+nav li a:hover, .menu-dropdown:hover .dropbtn {
+	background-color:#4CAF50;
+}
+
+nav li.menu-dropdown {
+	display:inline-block;
+}
+
+.dropdown-content {
+	display:none;
+	position:absolute;
+	background-color:#f2f2f2;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rpba(0,0,0,0.2);
+	z-index:1;
+}
+
+.dropdown-content a {
+	color:#333;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	text-align:left;
+}
+
+.menu-dropdown:hover .dropdown-content {
+	display:block;
+}
+
+a.active {
+	background-color:#4CAF50;
+}
+
+#content-wrap {
+	display:block;
+	position:relative;
+	margin:20px;
+	padding:0;
+	word-wrap:break-word;
+	overflow:hidden;
+}
+
+main {
+	margin:20px;
+}
+
+article {
+	float:left;
+	width:60%;
+	border:1px solid black;
+}
+
+article img {
+	width:200px;
+	height:150px;
+	margin:20px;
+	float:left;
+}
+
+aside {
+	float:right;
+	width:35%;
+}
+
+aside h2 {
+	font-size:18px;
+	text-align:center;
+	border-width:1px;
+	border-style:solid;
+	border-color:green;
+	margin:0;
+	padding:10px;
+	background-color:green;
+	color:white;
+}
+.mySlides {
+	display:none;
+}
+
+.mySlides img {
+	text-align:center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	position: relative;
+	margin:auto;
+	text-align:center;
+	border-width:1px;
+	border-style:solid;
+	border-color:green;
+	padding-top:10px;
+}
+
+/* The dots/bullets/indicators */
+#dot-slide {
+	text-align:center;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+footer {
+	text-align:center;
+	background-color:#404040;
+	color:white;
+	padding:1px 0 1px 0;
+}
